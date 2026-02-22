@@ -25,4 +25,5 @@ func countChars(text string) int {
 func main() {
 	text := "Hello\nWorld\nGolang"
 	fmt.Printf("Nombre de lignes : %d\n", countLines(text))
+	fmt.Printf("Nombre de caractères : %d\n", countChars(text))
 }
